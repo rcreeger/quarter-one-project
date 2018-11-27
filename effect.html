@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Strain by Effect</title>
+    <style media="screen"></style>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class = topClass>
+      <h2>The Perfect Strain</h2>
+      <p>Don't be lost when finding your perfect strain!</p>
+    </div>
+    <div class="formName">
+      <div id= 'effects'>
+        <form>
+          <legend>Choose what effect you are looking for:</legend>
+            <div>
+              <input type="checkbox" id="relaxed" name="relax" value="relaxed" />
+              <label for="realxed">Relaxed</label>
+            </div>
+            <div>
+              <input type="checkbox" id="happy" name="happy" value="happy" />
+              <label for="happy">Happy</label>
+            </div>
+            <div>
+              <input type="checkbox" id="hungry" name="hungry" value="hungry" />
+              <label for="hungry">Hungry</label>
+            </div>
+            <div>
+              <input type="checkbox" id="sleepy" name="sleepy" value="sleepy" />
+              <label for="sleepy">Sleepy</label>
+            </div>
+            <div>
+              <input type="checkbox" id="creative" name="creative" value="creative" />
+              <label for="creative">Creative</label>
+            </div>
+            <div>
+              <input type="checkbox" id="pain" name="pain" value="pain" />
+              <label for="pain">Pain Free</label>
+            </div>
+        </form>
+          </div>
+        </div>
+        <div class="effect-of-strain">
+        </div>
+        <div class="strain-effect-container">
+          <div class="strain-effect">
+          </div>
+        </div>
+        <div class="effect-strain-buttons">
+          <div>
+          <button type="button" id="find-strain" name="find-strain">Find Strain!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2018 The Perfect Strain</p>
+    </footer>
+    <script type="text/javascript" src="./script/effect.js"></script>
+  </body>
+</html>
